@@ -16,12 +16,13 @@
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^20.0.0",
-    "@rollup/plugin-node-resolve": "^13.0.4",
-    "@types/react": "^17.0.3",
-    "rollup": "^2.53.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@types/node": "^20.12.2",
+    "@types/react": "^17.0.80",
+    "rollup": "^2.79.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.30.0",
-    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.6.2",
     "typescript": "~4.2.4"
   },
   "scripts": {
@@ -31,5 +32,13 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@spectrum-icons/illustrations": "^3.6.11",
+    "@spectrum-icons/workflow": "^4.2.10",
+    "@types/react-dom": "^18.2.23",
+    "react-aria-components": "^1.1.1",
+    "rimraf": "^5.0.5"
   }
 }
